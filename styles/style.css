@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .generalContainer {
@@ -17,6 +17,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 .header-imageContainer {
@@ -55,12 +58,12 @@ ol li a {
 }
 
 li a:hover {
-  color: #1ED760;
+  color: #1ed760;
 }
 
 .hero {
   height: 760px;
-  background-color: #2D46B9;
+  background-color: #2d46b9;
   background-image: url(/images/bursts.svg);
   background-repeat: no-repeat;
   background-size: 2300px;
@@ -71,13 +74,13 @@ li a:hover {
   justify-content: center;
 }
 
-.hero-textContainer{
+.hero-textContainer {
   text-align: center;
 }
 
 .hero-textContainer h1 {
   margin: 0;
-  color: #1ED760;
+  color: #1ed760;
   font-size: 156px;
   line-height: 166px;
   margin-bottom: 40px;
@@ -85,17 +88,17 @@ li a:hover {
 }
 
 .hero-textContainer p {
-  color: #1ED760;
+  color: #1ed760;
   margin: 0;
 }
 
 .hero-textContainer button {
-  background-color: #1ED760;
+  background-color: #1ed760;
   height: 48px;
   width: 250px;
   border-style: none;
   border-radius: 50px;
-  color: #2D46B9;
+  color: #2d46b9;
   font-family: inherit;
   font-weight: bolder;
   margin-top: 40px;
@@ -153,11 +156,11 @@ ul li a {
 .pa {
   font-weight: 800;
   font-size: 0.9em;
-  color: #7A737E;
+  color: #7a737e;
 }
 
 .pa:hover {
-  color: #7A737E;
+  color: #7a737e;
 }
 
 .social {
