@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Circular Spotify";
 }
 
 .generalContainer {
@@ -64,7 +64,7 @@ li a:hover {
 .hero {
   height: 760px;
   background-color: #2d46b9;
-  background-image: url(/images/bursts.svg);
+  background-image: url(../images/bursts.svg);
   background-repeat: no-repeat;
   background-size: 2300px;
   background-position-x: -450px;
@@ -180,11 +180,11 @@ ul li a {
 }
 
 .social-icon.instagram {
-  background-image: url(/images/instagram.svg);
+  background-image: url(../images/instagram.svg);
 }
 .social-icon.twitter {
-  background-image: url(/images/twitter.svg);
+  background-image: url(../images/twitter.svg);
 }
 .social-icon.facebook {
-  background-image: url(/images/facebook.svg);
+  background-image: url(../images/facebook.svg);
 }
